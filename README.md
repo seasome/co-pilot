@@ -12,3 +12,5 @@ Working with Microsoft Teams and Yuuvis API
 * Privacy Issue
 * Archive
 * New Hire
+
+Janny Classifier:
