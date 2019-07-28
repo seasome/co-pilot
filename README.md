@@ -1,4 +1,4 @@
-<img src="files/icon.png" align="right" width="100" height="150" /> 
+<img src="files/icon.png" align="right" width="80" height="100" /> 
 
 # Co-Pilot [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 =======
