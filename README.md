@@ -6,6 +6,12 @@
 This project has been developed during the Yuuvis Hackathon in San Francisco https://yuuvishacksanfrancisco-platform.bemyapp.com/#/event organized by Yuuvis and Bemyapp with the following Sponsors that we thank you so much for the great resource they were able to provide. 
 https://docs.google.com/presentation/d/e/2PACX-1vSQrr-x2NHpnR4NbWxdfWfRsSzEI1edJEWXURU3Dcdk4QclXITcpPtY7lMHYptcmrXLRT18oWjUceQv/pub?start=false&loop=false&delayms=3000&slide=id.g52191f22dd_1_12
 
+
+
+![alt text](https://raw.githubusercontent.com/seasome/co-pilot/master/files/icon_bot.png)
+
+
+
 ## Authors
 
 * **Alberto Tono** - *San Francisco Computational Design Institute* - [SFCDI](https://www.sfcdi.org)
