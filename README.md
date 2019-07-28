@@ -1,4 +1,4 @@
-<img src="files/icon.png" align="right" / width=100>
+<img src="files/icon.png" align="right" width="200" height="400" /> 
 
 # Co-Pilot [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 =======
@@ -80,7 +80,9 @@ Schema
 
 # Architecture
 
-![alt text](https://raw.githubusercontent.com/seasome/co-pilot/master/files/arc.jpg)
+![alt text](https://raw.githubusercontent.com/seasome/co-pilot/master/files/arch.png)
+![alt text](https://raw.githubusercontent.com/seasome/co-pilot/master/files/arc.png)
+
 
 ## License
 
