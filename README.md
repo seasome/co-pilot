@@ -11,7 +11,7 @@ This project has been developed in July 2019 during the [Yuuvis Hackathon in San
 
 * **Alberto Tono** - *San Francisco Computational Design Institute* - [SFCDI](https://www.sfcdi.org)
 * **Raiz Munshi** - *Yahoo* - [Yahoo](https://www.yahoo.com)
-* **Unicorn ** - *UsData* 
+* **Unicorn** - *UsData* 
 
 We participate on the *Search and Collaboration* challenge: 
 
