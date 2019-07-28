@@ -82,8 +82,11 @@ Schema
 
 
 <img src="files/Arc.jpg"/> 
-<img src="files/Arch.png"/> 
+<img src="files/team.png"/> 
 <img src="files/Arch.jpg"/> 
+<img src="files/payplan.jpg"/> 
+<img src="files/solution.png"/> 
+
 ## License
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
