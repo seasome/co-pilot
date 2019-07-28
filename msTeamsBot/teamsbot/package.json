@@ -1,0 +1,19 @@
+{
+  "name": "simplebot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "botbuilder-teams": "^0.1.7",
+    "restify": "^6.3.4"
+  },
+  "devDependencies": {
+    "@types/restify": "^5.0.7"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

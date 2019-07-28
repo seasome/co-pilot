@@ -1,0 +1,61 @@
+{
+    "$schema": "https://statics.teams.microsoft.com/sdk/v1.1/manifest/MicrosoftTeams.schema.json", 
+    "manifestVersion": "1.1",
+    "version": "1.0.0",
+    "id": "d589b12c-f0a2-47dd-861e-85dc41feb629", 
+    "packageName": "com.winsmarts.myCustomTeamsBot3978",
+    "developer": {
+      "name": "Sahil Malik",
+      "websiteUrl": "http://www.winsmarts.com",
+      "privacyUrl": "http://www.winsmarts.com/ihavenoprivacy",
+      "termsOfUseUrl": "http://www.winsmarts.com/learnalot"
+    },
+    "name": {
+      "short": "myCustomTeamsBot3978",
+      "full": "My Super Amazing Custom Teams Bot"
+    },
+    "description": {
+      "short": "Short description of your app",
+      "full": "Full description of your app"
+    },
+    "icons": {
+      "outline": "20x20.png", 
+      "color": "96x96.png" 
+    },
+    "accentColor": "#68ba8d",
+    "bots": [
+      {
+        "botId": "d589b12c-f0a2-47dd-861e-85dc41feb629",        
+        "needsChannelSelector": "true",
+        "isNotificationOnly": "false",
+        "scopes": [ "team", "personal" ],
+        "commandLists": [
+          {
+            "scopes": ["team"],
+            "commands": [
+              {
+                "title": "getchannels",
+                "description": "Gets a list of channels in the team"
+              }
+            ]
+          },
+          {
+            "scopes": ["personal"],
+            "commands": [
+              {
+                "title": "aboutme",
+                "description": "Shows your profile"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "permissions": [
+      "identity",
+      "messageTeamMembers"
+    ],
+    "validDomains": [
+       "*.ngrok.io"
+    ]
+  }
