@@ -82,7 +82,7 @@ Schema
 
 
 <img src="files/Arc.jpg"/> 
-<img src="files/team.png"/> 
+<img src="files/team.jpg"/> 
 <img src="files/Arch.jpg"/> 
 <img src="files/payplan.jpg"/> 
 <img src="files/solution.png"/> 
