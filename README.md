@@ -1,6 +1,6 @@
 <img src="files/icon.png" align="right" width="80" height="100" /> 
 
-<img src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiNz4yqy9jjAhVBzKQKHZViDtkQjRx6BAgBEAU&url=https%3A%2F%2Fasana.com%2Fapps%2Fmicrosoft&psig=AOvVaw0sP974seX-L-XPWNONxFNt&ust=1564436786247184"/>
+<img src="files/teamM.png>
 
 # Co-Pilot [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 =======
