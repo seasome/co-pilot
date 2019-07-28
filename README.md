@@ -3,7 +3,7 @@
 # Co-Pilot [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 =======
 
-This project has been developed in July 2019 during the [Yuuvis Hackathon in San Francisco] (https://yuuvishacksanfrancisco-platform.bemyapp.com/#/event) organized by Yuuvis and Bemyapp with the following Sponsors that we thank you so much for the great resource they were able to provide. 
+This project has been developed in July 2019 during the [Yuuvis Hackathon in San Francisco](https://yuuvishacksanfrancisco-platform.bemyapp.com/#/event) organized by Yuuvis and Bemyapp with the following Sponsors that we thank you so much for the great resource they were able to provide. 
 [Presentation](https://docs.google.com/presentation/d/e/2PACX-1vSQrr-x2NHpnR4NbWxdfWfRsSzEI1edJEWXURU3Dcdk4QclXITcpPtY7lMHYptcmrXLRT18oWjUceQv/pub?start=false&loop=false&delayms=3000&slide=id.g52191f22dd_1_12)
 
 
