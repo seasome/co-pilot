@@ -1,4 +1,4 @@
-<img src="files/icon_bot.png" align="right" />
+<img src="files/icon_bot.jpg" align="right" />
 
 # Co-Pilot [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 =======
@@ -8,7 +8,7 @@ https://docs.google.com/presentation/d/e/2PACX-1vSQrr-x2NHpnR4NbWxdfWfRsSzEI1edJ
 
 
 
-![alt text](https://raw.githubusercontent.com/seasome/co-pilot/master/files/icon_bot.png)
+![alt text](https://raw.githubusercontent.com/seasome/co-pilot/master/files/icon_bot.jpg)
 
 
 
