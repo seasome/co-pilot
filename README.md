@@ -80,8 +80,7 @@ Schema
 
 # Architecture
 
-![alt text](https://raw.githubusercontent.com/seasome/co-pilot/master/files/Arch.png)
-![alt text](https://raw.githubusercontent.com/seasome/co-pilot/master/files/Arc.png)
+
 <img src="files/Arc.jpg"/> 
 <img src="files/Arch.png"/> 
 <img src="files/Arch.jpg"/> 
