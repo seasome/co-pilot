@@ -80,11 +80,11 @@ Schema
 
 # Architecture
 
-![alt text](https://raw.githubusercontent.com/seasome/co-pilot/master/files/arch.png)
-![alt text](https://raw.githubusercontent.com/seasome/co-pilot/master/files/arc.png)
-<img src="files/arc.png"/> 
-<img src="files/arch.png"/> 
-<img src="files/arch.jpg"/> 
+![alt text](https://raw.githubusercontent.com/seasome/co-pilot/master/files/Arch.png)
+![alt text](https://raw.githubusercontent.com/seasome/co-pilot/master/files/Arc.png)
+<img src="files/Arc.jpg"/> 
+<img src="files/Arch.png"/> 
+<img src="files/Arch.jpg"/> 
 ## License
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
