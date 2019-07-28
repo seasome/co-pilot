@@ -1,4 +1,4 @@
-<img src="files/icon.png" align="right" />
+<img src="files/icon.png" align="right" width="80" height="100" /> 
 
 # Co-Pilot [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 =======
@@ -11,7 +11,7 @@ This project has been developed in July 2019 during the [Yuuvis Hackathon in San
 
 * **Alberto Tono** - *San Francisco Computational Design Institute* - [SFCDI](https://www.sfcdi.org)
 * **Raiz Munshi** - *Yahoo* - [Yahoo](https://www.yahoo.com)
-* **Unicorn ** - *UsData* 
+* **Unicorn** - *UsData* 
 
 We participate on the *Search and Collaboration* challenge: 
 
@@ -80,8 +80,10 @@ Schema
 
 # Architecture
 
-![alt text](https://raw.githubusercontent.com/seasome/co-pilot/master/files/arch.jpg)
 
+<img src="files/Arc.jpg"/> 
+<img src="files/Arch.png"/> 
+<img src="files/Arch.jpg"/> 
 ## License
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
