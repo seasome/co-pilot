@@ -8,10 +8,6 @@ https://docs.google.com/presentation/d/e/2PACX-1vSQrr-x2NHpnR4NbWxdfWfRsSzEI1edJ
 
 
 
-![alt text](https://raw.githubusercontent.com/seasome/co-pilot/master/files/icon_bot.jpg)
-
-
-
 ## Authors
 
 * **Alberto Tono** - *San Francisco Computational Design Institute* - [SFCDI](https://www.sfcdi.org)
@@ -83,8 +79,9 @@ Schema
 </schema>
 ```
 
+# Architecture
 
-
+![alt text](https://raw.githubusercontent.com/seasome/co-pilot/master/files/icon_bot.jpg)
 
 
 
