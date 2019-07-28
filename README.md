@@ -80,7 +80,7 @@ Schema
 
 # Architecture
 
-![alt text](https://raw.githubusercontent.com/seasome/co-pilot/master/files/arch.jpg)
+![alt text](https://raw.githubusercontent.com/seasome/co-pilot/master/files/arc.jpg)
 
 ## License
 
