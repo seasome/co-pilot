@@ -1,6 +1,6 @@
 <img src="icon.png" align="right" />
 
-# Co-Pilot README [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Co-Pilot [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 =======
 
 This project has been developed during the Yuuvis Hackathon in San Francisco https://yuuvishacksanfrancisco-platform.bemyapp.com/#/event organized by Yuuvis and Bemyapp with the following Sponsors that we thank you so much for the great resource they were able to provide. 
