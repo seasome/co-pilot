@@ -12,7 +12,7 @@ This project has been developed in July 2019 during the [Yuuvis Hackathon in San
 [Presentation](https://docs.google.com/presentation/d/e/2PACX-1vSQrr-x2NHpnR4NbWxdfWfRsSzEI1edJEWXURU3Dcdk4QclXITcpPtY7lMHYptcmrXLRT18oWjUceQv/pub?start=false&loop=false&delayms=3000&slide=id.g52191f22dd_1_12)
 
 <img src="files/1.png" align="center" width="220" height="230" /> 
-<img src="files/1.jpg"/> 
+<img src="files/1.jpg" align="center" width="220" height="230" /> 
 
 ## Authors
 
