@@ -1,0 +1,37 @@
+<schema xmlns="http://optimal-systems.org/ns/dmscloud/schema/v4.0/" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:schemaLocation="http://optimal-systems.org/ns/dmscloud/schema/v4.0/ dmsCloud-schema.xsd">
+        <propertyStringDefinition>
+            <id>question</id>
+            <propertyType>string</propertyType>
+            <cardinality>single</cardinality>
+            <required>true</required>
+        </propertyStringDefinition>
+        <propertyStringDefinition>
+            <id>answer</id>
+            <propertyType>string</propertyType>
+            <cardinality>single</cardinality>
+            <required>true</required>
+        </propertyStringDefinition>
+		<propertyStringDefinition>
+            <id>type</id>
+            <propertyType>string</propertyType>
+            <cardinality>single</cardinality>
+            <required>true</required>
+        </propertyStringDefinition>
+        <propertyStringDefinition>
+            <id>misc</id>
+            <propertyType>string</propertyType>
+            <cardinality>single</cardinality>
+            <required>true</required>
+        </propertyStringDefinition>
+		<typeDocumentDefinition>
+            <id>copilot</id>
+            <baseId>enaio:document</baseId>
+            <propertyReference>type</propertyReference>
+            <propertyReference>misc</propertyReference>
+            <propertyReference>question</propertyReference>
+            <propertyReference>answer</propertyReference>
+            <contentStreamAllowed>allowed</contentStreamAllowed>
+        </typeDocumentDefinition>
+</schema>

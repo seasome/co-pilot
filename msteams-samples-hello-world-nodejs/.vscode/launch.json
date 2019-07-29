@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch - Teams Debug",
+            "program": "${workspaceFolder}/src/app.js",
+            "cwd": "${workspaceFolder}/src",
+            "env": {
+                "BASE_URI": "http://1be75723.ngrok.io",
+                "MICROSOFT_APP_ID": "079ba317-cecc-42a0-9c32-3d41281c682b",
+                "MICROSOFT_APP_PASSWORD": "ZlWSufYAXFRY]z3WSL:2Bp*64@f-r74e",
+                "NODE_DEBUG": "botbuilder",
+                "SUPPRESS_NO_CONFIG_WARNING": "y",
+                "NODE_CONFIG_DIR": "../config"
+            }
+        }
+    ]
+}

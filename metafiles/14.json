@@ -1,0 +1,1 @@
+{"objects": [{"properties": {"enaio:objectTypeId": {"value": "copilot"}, "question": {"value": "is it possible to add properties to metadata.json? i just tried in the Properties json nest and I got \"ValidationException: Illegal pro"}, "answer": {"value": ""}, "type": {"value": "D"}, "misc": {"value": "#code #json"}}}]}

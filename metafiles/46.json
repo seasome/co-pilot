@@ -1,0 +1,1 @@
+{"objects": [{"properties": {"enaio:objectTypeId": {"value": "copilot"}, "question": {"value": "You can define your own objecttype with your own properties an upload it. Look at the GET endpoint \"/admin/schema\". There is an example, how to design you custom objecttype in you custom schema."}, "answer": {"value": ""}, "type": {"value": "D"}, "misc": {"value": "#schema"}}}]}

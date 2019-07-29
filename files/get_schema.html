@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSSample</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+</head>
+<body>
+    <input type="button" onclick="upload()" value="Test">
+<script type="text/javascript">
+    upload = function() {
+ 
+        $.ajax({
+            url: "https://api.yuuvis.io/api/admin/schema",
+            processData: false,
+            contentType: false,
+            cache: false,           
+            beforeSend: function(xhrObj){
+                // Request headers
+                xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key","60a6dbe666ec455ca4b636ef1cbd878d");
+            },
+            type: "GET"
+        })
+        .done(function(data) {
+            alert("success");
+            console.log(data);
+        })
+        .fail(function() {
+            alert("error");
+        });
+    };
+</script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+{"objects": [{"properties": {"enaio:objectTypeId": {"value": "copilot"}, "question": {"value": "To get the metadata use the endpoint \"/dms/objects/{objectId}\" and to get the uploaded file use \"/dms/objects/{objectId}/contents/file\"."}, "answer": {"value": ""}, "type": {"value": "D"}, "misc": {"value": "#metadata #code"}}}]}

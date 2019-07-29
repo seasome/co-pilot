@@ -1,0 +1,93 @@
+Question	Metadata	Label
+Questions about: - Accessing the ideation platform - Logging in to Swaggerhub (coming soon) - Testing the APIs before the NYC Hackathon - Other? This is the place!	#info, #general	D
+Is this your first hackathon or are you a well seasoned Hackathon'er? Either way, you should check out this video down below and see just what it will take to win this weekend's Redline Hackathon and even get a brief demo on the how to use SwaggerHub and the yuuvis client for checking your data. <URL> 	#general	D
+is there on GET: /dms/objects to return all the documents in a tenant?	#document	D
+Hi I have a question regarding curl requests for the API and in python in particular - would appreciate some insight I'm at table 3 more specifically I'm having issues passing in the -F as it turns my dictionary into a set, yielding an error from the requests library 	#api	D
+hi i;m having a CORS problem with the yuuvis api	#api	D
+Hi I have a question regarding uploading an object with a Bash command - at table 2 table 3	#code	D
+What is the resource link to ai/ml and cloud intergratiom?	#resource#cloud	D
+what do you mean with resource link?	#resource	D
+Do we have any specific dataset from redline?	#data	D
+Err actually, does anyone know how to get the object id of the document you uploaded? I'm still trying to figure that out on swagger	#document	D
+the objectid is part of the response if you uploaded your document e.g. "properties": {                "enaio:objectId": {                    "value": "c69595ae-5b60-4c4a-a84c-d74425578d9f"                },	#document	D
+oh okay! is there a way to get all the files without neededing the objectid? like a select * from [object] kinda thing The only website I'm using for documentation is <URL> and there's not a whole lot it seems like for documentation	#document	D
+Does redline have a code exmaple for this?	#code	D
+is it possible to add properties to metadata.json? i just tried in the Properties json nest and I got "ValidationException: Illegal pro	#code #json	D
+I attempted to follow the tutorial and the json response is RESOURCE NOT FOUND	#json #code #tutorial	D
+the tutorial suggests using <URL> when that didn't work I used the url in the pdf document, <URL> (edited)  I received the same result, RESOURCE NOT FOUND	#tutorial	D
+I have question regarding when I use the python api, <URL> also resulting into a 404	#python #api #404 #code	D
+for people using the python api  header_dict[header_name] = ‘multipart/form-data, application/x-www-form-urlencoded’ don’t set this header, and things will work right out the box from the code snippets in git	#python #api #code	D
+The Uber discount code is not working	#uber #event	X
+so sorry! If you had to pay, we will reimburse you	#uber #event	X
+If you registered after Thursday and/or don't have your API keys, tag me, let me know your name/email, and I'll get them to you	#api	X
+don’t forget to utilize the tech support channel!	#tech #support	X
+is on here ready to help you with your ai/ml and cloud integration	#ai #ml #cloud	X
+did someone answer your question yet?		X
+nope!!		X
+ok I'm getting someone on it		X
+just sent a couple mentors your way		X
+What table are you at?		X
+2		X
+jerome is on the way :slightly_smiling_face:		X
+Just one minute		X
+Okay. I did see it earlier on Slack. Thanks		X
+you're welcome		X
+I'm having uber issues		X
+wait can we modify the metadata		X
+yes		X
+so in that case it would be: c69595ae-5b60-4c4a-a84c-d74425578d9f I did that but the only response I would get back is a json not the actual file uploaded	#json #code	X
+To get the metadata use the endpoint "/dms/objects/{objectId}" and to get the uploaded file use "/dms/objects/{objectId}/contents/file".	#metadata #code	D
+you can use the search endpoint to get the objects	#code	X
+I tried that but I keep getting asked to log in to swagger and i'm logged in and authorized So I can use some of the other Get/post to test but not others like this one 	#code #login	X
+you are not logged in, Basic Authentication failed! User [terrypiercson] terrypiercson is not a valid username for your tenant. you should use user0, user1,...	#login	X
+thank you jan T.!!!		X
+you're welcome		X
+you have to adapt your schema first. define the needed properties there and then you can use it for your objects		X
+There is a get-endpoint "dms/schema/native". There you can see, what objecttypes are allowed and what properties they can have. The type "document" can only have the properties "name" and "date".	#document	X
+You can define your own objecttype with your own properties an upload it. Look at the GET endpoint "/admin/schema". There is an example, how to design you custom objecttype in you custom schema.	#schema	D
+OH wow thank you! I'll will go do that now		X
+I think yuvis should not use letsencrypt certificate as it is based on ACME . So windows desktop and other application have to do custom coding or add cert otherwise it gives ssl issue.  Cors will always be there with java web server. You cannot is jquery ,Ajax and other client side script	#code	X
+Hi @RauhmelFoxCEO I have found @Max Lüdemann who is going to answer your question.		X
+I appreciate the quick response.		X
+Ok thanks for the additional information. Looks like the response is displaying an incorrect URL. We are in transit today so let’s talk at the workshop tonight or tomorrow at the hackathon,  		X
+The Agenda: 6:30pm - Check-in / Badge Pick Up 7:00pm - Kickoff and Introductions 7:30pm - Workshop 8:30pm - Networking 9:00pm - End	#general #info	D
+Whoops sorry about that. I know they will be covering schema, rendition and SQL, but I will let @Kolja and @James at yuuvis give you a better breakdown		X
+Today we will be going over the examples of how to make the different api calls and answering any questions along the way		X
+We will start with posting an object, then move on to testing it, viewing it, and deleting it. Next we will be going through the configuration and system type calls and working with your schema.	#schema	X
+Have any of the mentors used or are familiar with NATS <URL>	#nats	D
+Do any of the Mentors know GoLang really well?	#mentor	D
+Need approval for API as well	#api	X
+API Approval please	#api	X
+You should both be approved @Alberto Tono @Jasim alazzawi		X
+how to getting started with the yuuvis api?	#api	D
+1.Visit <URL> and click the Sign up button, or visit the Sign up page to register for a yuuvis® Developer Portal account. 2.You will receive an email verification, so be sure to check your email and click the link to activate your account. 3.When you click the link, you will be directed to your profile inside the developer portal. Navigate to the Products page and select yuuvis® Ultimate.	#api	D
+4.On the yuuvis® Ultimate product page, click the Subscribe button. 5.Name your instance whatever you like, then click Confirm. 6.After subscribing, you will receive an email that informs you that your subscription has been approved within 24 hours. 8.Navigate to the Products page, select yuuvis® Ultimate again (don’t be fooled by the Subscribe button, which may still appear and when you land on the page).  Select Core Capabilities (CRUD) to begin to work with your instance of yuuvis® API. 7.Once your account has been approved and access granted, navigate to your profile to access your API keys. There are two keys, Primary and Secondary (in case your Primary is compromised).	#api	D
+To get started with using the yuuvis API® you will need to add something to your instance, for this we will use the Postman App. If you don't have Postman already, you can download it here <URL> Once you have downloaded the Postman App start by selecting the Get Request button below under Create New section. (see figure I) 	#api	D
+We need to make a folder to hold your call inside of so feel free to fill in the request name, request description, and collection name; name it whatever you would like and save the collection. (see figure II)	#api	D
+Now we will be setting up a multipart POST request, used for transferring data of several types; this will send over your content body in a single request. To get started setting up your POST request, use the POST URL inside the input bar "https://api.yuuvis.io/dms/objects" and Setup your API key info under the authorization tab. (see figure III)  “Key” : “Ocp-Apim-Subscription-Key” “Value” : “Your Personal API Key”	#api	D
+Next, we set up the headers interface of the yuuvis® API, which allows you to perform various actions on HTTP request and response headers. These actions include retrieving, setting, adding to, and removing. (see figure IV)  “Content-Type” : “type” “Ocp-Apim-Subscription-Key” : “Your Personal API Key”	#api	D
+Uploading a Document	#api	D
+To upload a document, first create two files: metadata.json and content file on you local machine.	#api	D
+The JSON file MUST be named metadata.json, but the other file can be ANY type of file. In the JSON file, enter the following JSON	#api	D
+Setup your request body with your metadata.json file and your content file. (see figure V)  “data” : “select your metadata.json file” “cid_63apple” : “select your content file”	#api	D
+Finally, click SEND. You should receive a 200 response and see a response JSON payload similar to the following: Response data	#api	D
+Use your “enaio:objectId” from the response data value see #8 to make the GET request for your content. This is the id value for the document that you added to your instance. (see figure VII)	#api	D
+When your ready, hit the send button and you will receive a 200 OK response status. (see figure VIII) Congrats!!!	#api	D
+Now that you've successfully created your first document object inside of yuuvis®, and tested it in the yuuvis® developer's portal, you should be ready to jump into testing the other available endpoints. Just like the above example, you'll find plenty of query information to help you along.	#api	D
+If you get stuck Online: Visit #tech-support at <URL>  At the Hackathon: Come see one of our experts over at the yuuvis® Help Table  Good Luck! - The yuuvis® Team -	#api	D
+Quick Start: API Intro Guide ...	#api	X
+How to Sign Up for the Dev Platform ...	#api	X
+Import and Store Documents ...	#api	X
+Retrieve Documents ...	#api	X
+Retrieve the History Entries of a Document ...	#api	X
+Update Documents ...	#api	X
+Schema Definition ...	#api	X
+Glossary ...	#api	X
+If you would like to import and store multiple documents (objects) at the same time, you can use the same endpoint: "POST store one or more documents".  Instead of a single object, the objects list consists of several index data records. The individual content files of the objects then each require a unique cid as the name of the FormDataParts in the multipart request. This cid is referenced in the associated index data record in the contentStreams list, which allows index data to be uniquely assigned to content.  	#api	D
+To import and store a document (object), you must have at least the index data ready - the content file itself is optional unless you have modified the schema (per document type you define whether a content file is mandatory, optional or not allowed).  Format for the index data file:	#api	D
+n this example, the schema contains an object type document with the Name property, which may or must have content.  The content is referenced in the contentStreams object by specifying a cid (multipart content ID). In the example, the cid references a multipart content with content ID cid_63apple.  A content file can be in different file formats. We recommend to specify the format correctly in the index data and in the multipart request. If the content type is not specified, it is automatically determined during the content analysis. If the content type determination is not clear or the content analysis is switched off, the content type application/octet-stream is used.  In the example we have chosen a text file (content-Type: text/plain).  	#api	D
+To import and store a document (object) in the system, you send a POST request to the URL /api/dms/objects with a multipart body consisting of index data and, if applicable, a content file to be stored ("POST store one or more documents" endpoint). To construct such a request, use a MultipartBody.Builder(), which allows you to build the request body from several FORM parts as follows.  	#api	D
+Use a Request.Builder() to create a request object with the multipart body, headers, and the URL.  The header Ocp-Apim-Subscription-Key is necessary because it contains the user information to access the endpoint.  	#api	D
+To display the response of the yuuvis® API to the console, create an associated response object when the request is executed. Please note that an IOException can be thrown by the OkHttpClient when creating the response object.  	#api	D
+In the multipart body, you create a separate FormDataPart for the content of each object, whose first parameter is the content ID (cid).	#api	D
+If successful, the response object contains a multi-element objects list that contains the index data records of all documents (objects) imported in this batch import.	#api	D

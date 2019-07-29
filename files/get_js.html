@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSSample</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+</head>
+<body>
+
+    Query: <input type="file" value="query" onchange="loadFile(event)"><br>
+    <input type="button" onclick="upload()" value="Test">
+<script type="text/javascript">
+    var queryJson = '';
+    loadFile = function(event){
+      var input = event.target;
+      var reader = new FileReader();
+      reader.onload = function() {
+        queryJson = reader.result;
+      }
+      reader.readAsText($('input[type=file]')[0].files[0]);
+    }
+    upload = function() {
+ 
+        var formData = queryJson;
+        $.ajax({
+            url: "https://api.yuuvis.io/dms/objects/search",
+            processData: false,
+            contentType: false,
+            cache: false,           
+            beforeSend: function(xhrObj){
+                // Request headers
+                xhrObj.setRequestHeader("Content-Type","application/json");
+                xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key","60a6dbe666ec455ca4b636ef1cbd878d");
+            },
+            type: "POST",
+            data: formData
+        })
+        .done(function(data) {
+            alert("success");
+            console.log(data);
+        })
+        .fail(function() {
+            alert("error");
+        });
+    };
+</script>
+</body>
+</html>

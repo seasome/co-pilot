@@ -1,0 +1,23 @@
+{
+"objects": [{
+    "properties": {
+        "enaio:objectTypeId": {
+            "value": "copilot"
+        },
+        "question": {
+            "value": "whar is ur age?"
+        },
+        "answer": {
+            "value": "whar is ur age?"
+        },
+        "type": {
+            "value": "whar is ur age?"
+        },
+        "misc": {
+            "value": "whar is ur age?"
+        }
+
+    }
+
+    }]
+}

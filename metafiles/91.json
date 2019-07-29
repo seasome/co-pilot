@@ -1,0 +1,1 @@
+{"objects": [{"properties": {"enaio:objectTypeId": {"value": "copilot"}, "question": {"value": "In the multipart body, you create a separate FormDataPart for the content of each object, whose first parameter is the content ID (cid)."}, "answer": {"value": ""}, "type": {"value": "D"}, "misc": {"value": "#api"}}}]}

@@ -1,0 +1,7 @@
+{
+	"query": {
+		"maxItems": 50,
+		"statement": "SELECT * FROM enaio:object WHERE misc Like '#api%'",
+		"skipCount": 0
+	}
+}
